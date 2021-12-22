@@ -1,11 +1,13 @@
 import React from "react";
-
-const Home = () => {
+import { Container } from "react-bootstrap";
+function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    <Container>
+      <br></br>
+      <br></br>
+      <h1>Home</h1>
+    </Container>
   );
-};
+}
 
 export default Home;
