@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
+import Nav from "./Nav";
 function Layout({ children }) {
   return (
     <Grid
@@ -10,6 +11,7 @@ function Layout({ children }) {
       gap={6}
       p={3}
     >
+      <Nav />
       <ColorModeSwitcher
         position="absolute"
         top={3}
