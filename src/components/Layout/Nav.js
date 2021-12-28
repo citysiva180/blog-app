@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useAuth } from "../../hooks/useAuth";
 
 const Nav = () => {
-  const { user, logout } = useAuth();
+  const { user, logout } = useAuth() || {};
 
   return (
     <GridItem colStart={1} colSpan={3} p={3}>
