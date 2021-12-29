@@ -36,7 +36,7 @@ const LoginForm = () => {
       <Heading as="h1" mb={6}>
         Login
       </Heading>
-      {errors.email}
+      {/* {errors.email} */}
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormControl>
           <FormLabel htmlFor="email">Email</FormLabel>
